@@ -1,3 +1,54 @@
+body {
+    font-family: Roboto, Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
 div {
     border: 1px solid red;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 4px 20px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.signup {
+    border: 1px solid #1F2937;
+}
+
+a,
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heroimg {
+    background-color: grey;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
