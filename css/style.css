@@ -18,11 +18,16 @@ div {
 
 nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    border: 1px solid red;
+    padding: 0px;
+    gap: 20px;
 }
 
 .awesome {
