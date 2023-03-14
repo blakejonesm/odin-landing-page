@@ -16,6 +16,15 @@ div {
     color: #F9FAF8;
 }
 
+nav {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
 .awesome {
     font-size: 48px;
     font-weight: 800;
@@ -23,7 +32,7 @@ div {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #3882F6;
     padding: 4px 20px;
     color: #F9FAF8;
     border-radius: 8px;
@@ -32,6 +41,17 @@ button {
 
 .signup {
     border: 1px solid #1F2937;
+}
+
+.quatre {
+    border: 3px solid #3882F6;
+    border-radius: 6px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 a,
@@ -49,6 +69,31 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
+.third {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+}
+
+.action {
+    font-weight: 800;
+}
+
+.upsign {
+    border: 1px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
