@@ -7,7 +7,8 @@ div {
     border: 1px solid red;
 }
 
-.header {
+.header,
+nav {
     background-color: #1F2937;
 }
 
@@ -30,6 +31,17 @@ ul {
     gap: 20px;
 }
 
+.header {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
 .awesome {
     font-size: 48px;
     font-weight: 800;
@@ -48,6 +60,20 @@ button {
     border: 1px solid #1F2937;
 }
 
+.hero,
+.heroimg {
+    flex: 1;
+}
+
+.heroimg {
+    background-color: grey;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
 .quatre {
     border: 3px solid #3882F6;
     border-radius: 6px;
@@ -63,15 +89,6 @@ a,
 .text {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.heroimg {
-    background-color: grey;
-    color: #E5E7EB;
-}
-
-a {
-    text-decoration: none;
 }
 
 .third {
